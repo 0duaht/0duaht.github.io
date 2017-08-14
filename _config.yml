@@ -1,9 +1,9 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Oduah Tobi
+bio: Software Developer by day, Nigerian Prince by night.
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: Everything, and then some
 
 # if it's an external image, update below for true
 # better with square images
@@ -14,9 +14,9 @@ picture: assets/images/profile.jpg
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume-url: https://docs.google.com/document/d/1_WYkbo95UI1TzKPxqMyQsufduhUAVxtDK_qhFByUU3Y/edit?usp=sharing
 
-url: https://koppl.in/indigo
+url: https://0duaht.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -30,41 +30,35 @@ permalink: /:title/
 
 # if you don't want comments in your posts, leave categories empty
 disqus:
-  shortname: mydisqus # enter this from your disqus account
+  shortname: 0duaht-github-io # enter this from your disqus account
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+# facebook: oduaht
+twitter: rollauver
 # google: mygoogle
-# instagram: myinstagram
+# instagram: 0duaht
 # pinterest: mypinterest
 # linkedin: mylinkedin
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
+github: 0duaht
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: medium
+# medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: myemail@gmail.com
+email: oduaht@gmail.com
 
 authors:
-    johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
+    tobi:
+        name: Oduah Tobi
+        bio: Software Developer by day, Nigerian Prince by night.
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: johndoe
-    jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
-        external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
+        twitter: rollauver
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -76,10 +70,10 @@ width: normal
 # paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+projects: false
 
 # if you don't need "about" or "blog", comment them out below
-about: true
+about: false
 blog: true
 
 # do you want to show the "read time" of the posts?
