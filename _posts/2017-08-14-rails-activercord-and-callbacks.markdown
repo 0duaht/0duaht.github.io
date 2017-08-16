@@ -11,7 +11,7 @@ tag:
 star: true
 category: blog
 author: tobi
-description: Markdown summary with different options
+description: Dealing with post-create callbacks being re-triggered while processing a callback
 ---
 
 A couple hours ago, I wrote a very basic callback method on an ActiveRecord model in a Rails app. I was working on a ticketing system that assigns tickets to new orders.
