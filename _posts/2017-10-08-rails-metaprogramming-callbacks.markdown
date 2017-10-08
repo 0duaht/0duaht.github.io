@@ -7,7 +7,9 @@ headerImage: false
 tag:
 - rails
 - active_record
+- metaprogramming
 - callbacks
+- tickets
 star: true
 category: blog
 author: tobi
