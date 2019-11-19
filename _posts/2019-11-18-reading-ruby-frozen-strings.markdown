@@ -73,7 +73,7 @@ What happens though if some operation within the method inadvertently updates th
   end
 {% endhighlight %}
 
-The same object_id is still printed to the console, however, MANUAL_EVENT gets a 1 appended to its value at each call, which might not be the intended effect when passing the same string reference to a different method, or an external library.
+The same object_id is still printed to the console, however, `MANUAL_EVENT` gets a 1 appended to its value at each call, which might not be the intended effect when passing the same string reference to a different method, or an external library.
 
 One way to fix this is using String's freeze method, like:
 
