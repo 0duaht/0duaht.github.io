@@ -38,7 +38,9 @@ Multiple searches after, and several regex/string-formatting related results aft
 
 Before going into an explanation of what the purpose for prefixing a String declaration there was, I'll talk a little about frozen strings in Ruby, why it's typically a good idea to freeze strings and why it matters if you're working on a large project, or a project (that will be) used by a lot of users.
 
-Strings in most languages are a sequence of characters represented by using quotes or enclosed in some bracketing syntax. Because a new memory space is used to store each new string, memory usage grows linearly with the number of new strings initialized. To optimize memory usage, especially in long-running apps like a web server or a project that initializes a lot of strings, strings would typically be assigned to a variable, and then the variable is returned or used, instead of a string literal. So for example in the snippet below:
+Strings in most languages are a sequence of characters represented by using quotes or enclosed in some bracketing syntax. Because a new memory space is used to store each new string, memory usage grows linearly with the number of new strings initialized.
+
+To optimize memory usage, especially in long-running apps like a web server or a project that initializes a lot of strings, strings would typically be assigned to a variable, and then the variable is returned or used, instead of a string literal. So for example in the snippet below:
 
 
 {% highlight ruby %}
