@@ -68,7 +68,7 @@ What happens though if some operation within the method inadvertently updates th
   MANUAL_EVENT = 'manual'
 
   def generate_version!(event = MANUAL_EVENT)
-    MANUAL_EVENT << '1'
+    event << '1'
     puts event.object_id
   end
 {% endhighlight %}
@@ -79,7 +79,7 @@ One way to fix this is using String's freeze method, like:
 
 {% highlight ruby %}
   def generate_version!(event = 'manual'.freeze)
-    MANUAL_EVENT << '1' # throws an error
+    event << '1' # throws an error
     puts event.object_id
   end
 {% endhighlight %}
@@ -94,7 +94,7 @@ To enable this, add a pragma comment at the top of the Ruby file/code you want t
   # frozen_string_literal: true
 
   def generate_version!(event = 'manual')
-    MANUAL_EVENT << '1' # throws an error
+    event << '1' # throws an error
     puts event.object_id
   end
 {% endhighlight %}
