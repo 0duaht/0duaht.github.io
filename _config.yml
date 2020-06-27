@@ -34,7 +34,7 @@ disqus:
 
 # if you don't have any of social below, comment the line
 # facebook: oduaht
-twitter: rollauver
+# twitter: 0duaht
 # google: mygoogle
 # instagram: 0duaht
 # pinterest: mypinterest
@@ -57,7 +57,6 @@ authors:
         bio: Software Developer by day, Nigerian Prince by night.
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: rollauver
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
